@@ -1,0 +1,46 @@
+.highlight {
+  &--circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  &__content {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+  }
+
+  &--border {
+    border: 10px solid #999;
+  }
+}
+
+.skills {
+  display: list;
+
+  &__item {
+    display: list-item;
+    list-style-type: none;
+    display: block;
+    padding: 10px 0 10px 0;
+    height: 30px;
+  }
+
+  &__point {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #999;
+    width: 10px;
+    height: 10px;
+
+    &.filled {
+      background: #999;
+    }
+  }
+
+}

@@ -1,0 +1,15 @@
+####
+# Editor files
+####
+.idea
+
+####
+# Project
+####
+node_modules
+public
+
+####
+# Annoying stuff That's not needed.
+####
+*debug.log

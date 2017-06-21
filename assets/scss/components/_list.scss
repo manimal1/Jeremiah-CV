@@ -1,0 +1,56 @@
+@import '../generator/utils/triangle';
+
+.list-0a {
+  list-style-type: none;
+}
+
+.list-0b {
+  list-style-type: none;
+  position: relative;
+
+  margin-top: 30px;
+  margin-left: 10px;
+  padding-left: 14px;
+
+  border-left: 4px solid #999;
+  color: #999;
+
+  li {
+    padding: 10px;
+    // font-size:60px
+
+    // & * {
+    //   font-size: 12px;
+    // }
+  }
+
+  &:before {
+    width: 0;
+    height: 0;
+    content: '';
+    z-index: 2;
+    border-bottom: 12px solid #999;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    left: -8px;
+    bottom: 100%;
+  }
+}
+
+.list-0c {
+  list-style-type: disc;
+  position: relative;
+
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 14px;
+
+  li {
+    padding-top: 7px;
+
+    &:first-child{
+      padding-top: 0;
+    }
+  }
+}

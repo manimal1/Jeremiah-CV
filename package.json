@@ -1,0 +1,28 @@
+{
+  "name": "resume",
+  "version": "0.0.1",
+  "description": "A resume in html",
+  "main": "express-file-server.js",
+  "scripts": {
+    "start": "nodemon express-file-server.js",
+    "build": "./node_modules/.bin/webpack -w",
+    "build-win": ".\\node_modules\\.bin\\webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremiah McCurdy",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "6.7.0",
+    "bluebird-extra": "^2.0.0",
+    "clean-webpack-plugin": "^0.1.15",
+    "css-loader": "0.26.1",
+    "express": "4.14.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "html-pdf": "2.1.0",
+    "node-sass": "4.4.0",
+    "postcss-loader": "1.2.2",
+    "sass-loader": "4.1.1",
+    "style-loader": "0.13.1",
+    "webpack": "1.14.0"
+  }
+}

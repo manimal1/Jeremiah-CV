@@ -1,0 +1,39 @@
+
+html, *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1, h3, h5 {
+  font-family: 'Catamaran', sans-serif;
+  text-transform: uppercase;
+  color: #666;
+}
+
+h2, h4, h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+ul, li, p, span, strong, em, u, i {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  color: #999;
+}
+
+a:hover {
+  color: #666;
+}

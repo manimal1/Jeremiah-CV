@@ -1,0 +1,50 @@
+/**
+ * Spacing
+ */
+.box {
+  padding: 20px;
+
+  &-t {
+    padding-top: 20px;
+  }
+
+  &-r {
+    padding-right: 20px;
+  }
+
+  &-b {
+    padding-bottom: 20px;
+  }
+
+  &-l {
+    padding-left: 20px;
+  }
+
+  &-0a {
+    padding: 10px;
+  }
+
+  &-b-0a {
+    padding-bottom: 10px;
+  }
+
+  &-t-0a {
+    padding-top: 10px;
+  }
+
+  &-v-0a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.marg {
+
+  &-n {
+    margin: 0;
+  }
+
+  &-b-n {
+    margin-bottom: 0;
+  }
+}

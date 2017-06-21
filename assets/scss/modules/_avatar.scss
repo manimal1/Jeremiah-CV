@@ -1,0 +1,21 @@
+.avatar {
+    overflow: hidden;
+    border-radius: 50%;
+    max-width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    position: relative;
+}
+
+.avatar-0a {
+    width: 150px;
+    height: 150px;
+}
+
+.avatar img {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    // left: -25%;
+    height: 100%;
+}
