@@ -9,7 +9,10 @@ I'm using node because I'm comfortable with it.
 ### Getting Started
 
 ``` bash
-# build assets - definitely necessary if running for the first time.
+# install dependencies
+npm install
+
+# build assets - necessary if running for the first time.
 npm run build
 
 # start server
