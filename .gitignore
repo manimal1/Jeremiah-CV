@@ -13,6 +13,7 @@
 ####
 node_modules
 public
+package-lock.json
 
 ####
 # Annoying stuff That's not needed.
