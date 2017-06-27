@@ -7,8 +7,14 @@ If you want to see a sample of my code, check out my resume itself.
 I'm using node because I'm comfortable with it.
 
 ### Getting Started
-use ```npm run build``` to build assets - definitely necessary if running for the first time.
-use ```npm start``` to start up the server
+
+``` bash
+# build assets - definitely necessary if running for the first time.
+npm run build
+
+# start server
+npm start
+```
 
 ### Material UI/Icons
 I used material Icons for use with the resume. - see googles material design
@@ -19,13 +25,5 @@ I used material Icons for use with the resume. - see googles material design
 
 ### Roadmap
 - investigate and add a template engine to edit the configuration.
-    - possibly use React
-    - add functionality to each section but use same basic layout - create reusable components from sections.
-    - first page should be used for 'grabbing one's attention' subsequent pages should be for a more detailed approach.
+- possibly use React
 - map out data and templates to be able to switch them out.
-- Localization?
-
-### Guidelines
-- Keep design as simple as possible but provide basic structure, no need to be too fancy ( K.I.S.S. principle )
-- Fail fast, fail often, just remember to commit and branch when trying out anything radical.
-    - e.g. a new templating engine.
