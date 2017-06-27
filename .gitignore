@@ -4,6 +4,11 @@
 .idea
 
 ####
+# OS files
+####
+.DS_Store
+
+####
 # Project
 ####
 node_modules
@@ -13,3 +18,5 @@ public
 # Annoying stuff That's not needed.
 ####
 *debug.log
+
+
