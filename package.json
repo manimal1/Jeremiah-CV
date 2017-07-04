@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "0.0.1",
-  "description": "A resume in html",
+  "description": "An HTML Resume",
   "main": "express-file-server.js",
   "scripts": {
     "start": "nodemon express-file-server.js",
